@@ -15,6 +15,7 @@ public class TestMessageUtil {
 		 * Überprüft ob message mit dem Rückgabewert der Methode printMessage() 
 		 * in der Klasse messageUtil übereinstimmt.
 		 */
+		message = "YOLO";
 		assertEquals(message,messageUtil.printMessage());
 	}
 }
