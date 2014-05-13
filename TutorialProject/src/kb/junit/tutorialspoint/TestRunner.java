@@ -4,6 +4,14 @@ import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
+/**
+ * Testrunner durchläuft eine Reihe von angelegten Tests.
+ * Dabei wird in einer Result Variable die Testergebnisse der jeweils angegebenen
+ * Klasse gespeichert. Mithilfe einer Schleife können mögliche Fehler
+ * ausgegeben werden.
+ * Falls alle Tests innerhalb der Klasser erfolgreich waren, so wird in der
+ * Konsole true angezeigt, ansonsten false.
+ */
 public class TestRunner {
 	public static void main(String[] args) {
 		
