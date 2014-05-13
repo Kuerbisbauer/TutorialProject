@@ -9,6 +9,7 @@ import org.junit.runner.notification.Failure;
  * Dabei wird in einer Result Variable die Testergebnisse der jeweils angegebenen
  * Klasse gespeichert. Mithilfe einer Schleife können mögliche Fehler
  * ausgegeben werden.
+ * 
  * Falls alle Tests innerhalb der Klasser erfolgreich waren, so wird in der
  * Konsole true angezeigt, ansonsten false.
  */
